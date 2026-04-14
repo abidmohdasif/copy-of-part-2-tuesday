@@ -1,7 +1,6 @@
 # test_converter.py
 import pytest
-import src
-from src.converter import (
+from src import (
     celsius_to_fahrenheit,
     fahrenheit_to_celsius,
     kilometers_to_miles,
