@@ -15,8 +15,9 @@ jobs:
       # The runner has no code to work with -- all subsequent steps will fail
       # because the repo files do not exist in the working directory.
 
+      - uses: actions/checkout@v4
       - name: Set up Python
-        uses: actions/checkout@v4
+        uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
